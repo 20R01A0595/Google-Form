@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Form</title>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-color: #f0b4d5;
+                font-family: Roboto,Sans-serif;
+                align-content: center;
+            }
+            .form{
+                height:1100px;
+                width:600px;
+                margin: auto;
+            }
+            .required{]
+            font-size:13px;
+        color:red;
+    }
+    .title-div{
+        height:150px;
+        width:600px;
+        background-color: #FDFEFE;
+        margin:15px;
+        border-radius:8px;
+        border-top:8px solid #6703c4;
+        padding:25px;
+    }
+    .firstname,.lastname,.email,.Phone-Number,.form-gender{
+        height:150px;
+        width:650px;
+        background-color: #FDFEFE;
+        margin:15px;
+        border-radius: 8px;
+
+    }
+    .name{
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        font-size: 15px;
+    }
+    .input-div{
+        padding-top: 25px;
+        padding-left: 25px;
+    }
+    .input-div input{
+        width:300px;
+        border:0;
+        outline:0;
+        border-bottom: 1.5px solid #DCD7D7;
+    }
+    .btn{
+        height:36px;
+        width:100px;
+        background-color: #6703c4;
+        border-radius: 5px;
+    }
+
+
+        </style>
+
+    </head>
+    <body>
+        <div class="form">
+        <div class="title-div">
+        <h1>GOOGLE FORM</h1>
+        <p class="required">*Required</p>
+        </div>
+        <div class="firstname">
+            <div class="name">First Name</div>
+            <div class="input-div"><input type="input" name="answer" placeholder="first name"></div>
+        </div>
+        <div class="lastname">
+            <div class="name">Last Name</div>
+            <div class="input-div"><input type="input" name="answer" placeholder="last name "></div>
+        </div>
+        <div class="email">
+            <div class="name">Email</div>
+            <div class="input-div"><input type="input" name="answer" placeholder="email "></div>
+        </div>
+        <div class="Phone-Number">
+            <div class="name">Phone Number</div>
+            <div class="input-div"><input type="input" name="answer" placeholder="phone number"></div>
+        </div>
+        <div class="form-gender">
+            <div class="name">Gender</div>
+            <input type="radio" id="mail" name="radio1" value="Male">Male<br>
+            <input type="radio" id="female" name="radio1" value="Female">Female<br>
+          </div>
+          <div>
+            <input class="btn" type="submit" name="submit">
+          </div>
+          </div>
+
+        
+
+        
+
+
+
+    </body>
+</html>
